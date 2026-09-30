@@ -1,8 +1,29 @@
 header{
-    background-color: rgb(249, 243, 234);
+    background-color: rgb(240, 240, 240);
     text-align: center;
 }
 .menu{
     display:flex;
-    align-items: center;
+    justify-content: center;
+    gap:20px;/*Para dejar espacio entre las palabras del menu*/
+}
+.menu a{
+    text-decoration: none;/*Para quitar lo subrayado*/
+    color: black;
+}
+.menu a:hover{
+    color:grey;/*Para que cuando se pase el cursor por encima se cambie de color*/
+}
+.contenedor-bloques{
+    display:flex;
+    margin:20px;
+}
+
+.bloque-izq, .bloque-der{
+    flex:1;/*Para que los dos bloques tengas el mismo tamaño*/
+    margin:20px;
+}
+.bloque-abajo{
+    text-align: center;
+    margin:20px
 }
