@@ -17,6 +17,7 @@ header{
 .contenedor-bloques{
     display:flex;
     margin:20px;
+    text-align: center;
 }
 
 .bloque-izq, .bloque-der{
@@ -25,5 +26,7 @@ header{
 }
 .bloque-abajo{
     text-align: center;
-    margin:20px
+    margin:20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
